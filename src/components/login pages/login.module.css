@@ -1,0 +1,37 @@
+.loginblock {
+    padding: 50px;
+    margin: 0 auto;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logincontainer {
+    background-color: rgb(240, 232, 232) !important;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #0f0f0ff7;
+}
+
+.formcontrol {
+    height: 60px;
+    width: 460px;
+    margin-top: 10px;
+
+}
+
+.buttoncontainer {
+    margin-top: 10px;
+    text-align: center;
+
+    button {
+        width: 25%;
+    }
+}
+
+.errormessage {
+    color: red;
+}
